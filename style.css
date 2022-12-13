@@ -1,0 +1,153 @@
+body{
+    color:hsl(224, 21%, 14%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 5% 20%;
+    font-family: 'header','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 16px;
+}
+article{
+    padding: 0px 15px;
+    margin: 10px 0px;
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 10px;
+    box-shadow: -1px 1px 1px 0px rgba(180, 180, 180, 0.171);
+}
+header,article, .header_notification{
+    display: flex;
+    align-items: center;
+}
+#container {
+    box-shadow: 0px 0px 20px 1px rgba(160, 159, 159, 0.384);
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+#add_notification,#counter{
+    height: fit-content;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 10px;
+    width: fit-content;
+}
+#add_notification{
+    color: hsl(219, 85%, 26%);
+    border-color: hsl(219, 85%, 26%);
+    border-width: 2px;
+    border-style: groove;
+    font-size: 16px;
+    margin-left:0px
+}
+#add_notification:hover{
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: hsl(219, 85%, 26%);
+}
+#counter{
+    background-color: hsl(219, 85%, 26%);
+    color: aliceblue;
+}
+.alpha06{
+    opacity: 0.6;
+}
+.publish_photo{
+    margin-left: auto;
+    padding: 10px;
+    width: 50px;
+}
+.image_profile{
+    margin-right: 20px;
+    margin-bottom:auto;
+    margin-top:12px
+}
+.interactive_text:hover{
+    color: #385080;
+    cursor: pointer;
+}
+.time{
+  opacity: 0.5;
+}
+.red_circle{
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 5px 5px;
+    background-color: hsl(1, 90%, 64%);
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: 4px;
+}
+
+@font-face {
+    font-family: 'header';
+    src: url(./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+.floating_to_left{
+    float: left;
+}
+.floating_to_right{
+    margin-left: auto;
+}
+.message{
+    box-shadow: 0px 0px 1px 1px rgba(187, 187, 187, 0.411);
+    border-radius: 5px;
+    padding: 15px;
+}
+.message:hover{
+    background-color: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+.float{
+	position:fixed;
+	width:65px;
+	height:65px;
+	bottom:30px;
+	right:30px;
+	background-color:hsl(219, 85%, 26%);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    cursor: pointer;
+    display: none;
+}
+
+.my-float{
+    margin:auto;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 23px;
+    font-size: xx-large;
+}
+@media(max-width: 446px) {
+    #container{
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.384);
+    padding: 0px;
+    border-radius: 0px;
+    }
+    body{
+        padding: 0px 10px;
+    }
+  }
+@media (max-width: 530px){
+    #add_notification{
+        display: none;
+    }
+    .float{
+        display: flex;
+    }
+}
+@media (max-width: 428px) {
+    header{
+        font-size: 14px;
+    }
+}
+@media (max-width: 800px){
+    body{
+        padding: 5%
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
