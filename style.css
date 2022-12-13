@@ -130,7 +130,7 @@ header,article, .header_notification{
         padding: 0px 10px;
     }
   }
-@media (max-width: 530px){
+@media (max-width: 533px){
     #add_notification{
         display: none;
     }
