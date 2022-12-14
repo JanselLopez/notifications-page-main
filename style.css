@@ -118,6 +118,7 @@ header,article, .header_notification{
     position: absolute;
     top: 10px;
     right: 23px;
+    line-height: 1.1em;
     font-size: xx-large;
 }
 @media(max-width: 446px) {
