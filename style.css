@@ -51,6 +51,7 @@ h1{
 #counter{
     background-color: hsl(219, 85%, 26%);
     color: aliceblue;
+    font-size: 18px;
 }
 .alpha06{
     opacity: 0.6;
